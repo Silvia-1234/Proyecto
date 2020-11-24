@@ -31,39 +31,39 @@
                                                 <div >
 													<div >
 														<label for="fullname">Apellidos</label>
-														<input type="text" name="Apellidos" id="fullname" class="form-control" required="">
+														<input type="text" name="nombre" id="fullname" class="form-control" required="">
 													</div>
 												</div>
 
                                                 <div >
 													<div >
 														<label for="fullname">Ci</label>
-														<input type="text" name="CI" id="fullname" class="form-control" required="">
+														<input type="text" name="ci" id="fullname" class="form-control" required="">
 													</div>
 												</div>
 
                                                 <div >
 													<div >
 														<label for="fullname">telefono</label>
-														<input type="text" name="telefono" id="fullname" class="form-control" required="">
+														<input type="text" name="ci" id="fullname" class="form-control" required="">
 													</div>
 												</div>
 
                                                 <div >
 													<div >
-														<label for="fullname">destino</label>
-														<input type="text" name="destino" id="fullname" class="form-control" required="">
-													</div>
-												</div>
-												
-                                                <div >
-													<div >
-														<label for="fullname">Precio</label>
-														<input type="text" name="precio" id="fullname" class="form-control" required="">
+														<label for="fullname">Destino</label>
+														<input type="text" name="ci" id="fullname" class="form-control" value="Cochabamba" required="" readonly>
 													</div>
 												</div>
 
-												
+                                                <div >
+													<div >
+														<label for="fullname">Precio  Bs.</label>
+														<input type="text" name="ci" id="fullname" class="form-control" value="100" required="" readonly>
+													</div>
+												</div>
+
+											
 
 												<div class="row form-group">
 													<div class="col-md-12">
