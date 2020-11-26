@@ -15,9 +15,10 @@
         
                 
             <center>
+            <!-- 
                 <a href="reservas.php">
                 <button ><font size="4">RESERVAS</font><br><br><img src="images/reserva.png" width="150"></button>
-                </a>
+                </a>-->
                         <br>
                 <a href="precios.php">				
                 <button ><font size="4">PRECIOS</font><br><br><img src="images/precio.png" width="150"></button>

@@ -31,7 +31,7 @@
                                                 <div >
 													<div >
 														<label for="fullname">Apellidos</label>
-														<input type="text" name="nombre" id="fullname" class="form-control" required="">
+														<input type="text" name="apellidos" id="fullname" class="form-control" required="">
 													</div>
 												</div>
 
@@ -45,21 +45,21 @@
                                                 <div >
 													<div >
 														<label for="fullname">telefono</label>
-														<input type="text" name="ci" id="fullname" class="form-control" required="">
+														<input type="text" name="telefono" id="fullname" class="form-control" required="">
 													</div>
 												</div>
 
                                                 <div >
 													<div >
 														<label for="fullname">Destino</label>
-														<input type="text" name="ci" id="fullname" class="form-control" value="Oruro" required="" readonly>
+														<input type="text" name="destino" id="fullname" class="form-control" value="Oruro" required="" readonly>
 													</div>
 												</div>
 
                                                 <div >
 													<div >
 														<label for="fullname">Precio  Bs.</label>
-														<input type="text" name="ci" id="fullname" class="form-control" value="80" required="" readonly>
+														<input type="text" name="precio" id="fullname" class="form-control" value="80" required="" readonly>
 													</div>
 												</div>
 												

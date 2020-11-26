@@ -42,18 +42,18 @@ text-align: center;
 <nav class="padre">
 
     <div class="menu">
-    <a href="index.php" class>Inicio</a>
+    <a href="reservasadmin.php" class>reservas</a>
     </div>
 
     <div class="menu">
-    <a href="precios.php" class>Precios</a>
+    <a href="mensajesadmin.php" class>mensajes</a>
     </div>
 
     <div class="menu">
-    <a href="contacto.php" class>Contacto</a>
+    <a href="añadir.php" class>añadir administrador</a>
     </div>
 
     <div class="menu">
-    <a href="sesion.php" class>Iniciar sesion</a>
+    <a href="desconectar.php" class>Salir</a>
     </div>
 </nav>
