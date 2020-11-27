@@ -42,7 +42,7 @@ text-align: center;
 <nav class="padre">
 
     <div class="menu">
-    <a href="reservasadmin.php" class>reservas</a>
+    <a href="admin.php" class>reservas</a>
     </div>
 
     <div class="menu">
@@ -50,7 +50,11 @@ text-align: center;
     </div>
 
     <div class="menu">
-    <a href="añadir.php" class>añadir administrador</a>
+    <a href="ListarAdmin.php" class>Lista de administradores</a>
+    </div>
+
+    <div class="menu">
+    <a href="registro.php" class>añadir administrador</a>
     </div>
 
     <div class="menu">
