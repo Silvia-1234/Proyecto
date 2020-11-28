@@ -20,7 +20,6 @@
 				echo ' <script language="javascript">alert("Registro exitoso");</script> ';
 				
 			}
-		
 ?>
 
-<META HTTP-EQUIV="REFRESH" CONTENT="1;URL=registro.php">
+<META HTTP-EQUIV="REFRESH" CONTENT="1;URL=ListarAdmin.php">

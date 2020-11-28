@@ -21,7 +21,7 @@ $correo=$_POST['correo'];
 $mensaje=$_POST['mensaje'];
 
 
- $sql="INSERT INTO mensajes VALUES ('$nombre','$correo','$mensaje')"; 
+ $sql="INSERT INTO mensajes VALUES ('','$nombre','$correo','$mensaje')"; 
 
 $ejecutar=mysqli_query($conexion, $sql);
 
@@ -36,4 +36,4 @@ if(!$ejecutar){
     echo "<script>location.href='index.php'</script>";  
 }
  
-?>﻿
+?>

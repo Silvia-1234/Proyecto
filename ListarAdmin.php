@@ -40,6 +40,7 @@
 						echo "<td><font color='000000' size='5'>apellidos<br></font></td>";
 						echo "<td><font color='6D6D71' size='5'>ci<br></font></td>";
 						echo "<td><font color='000000' size='5'>usuario<br></font></td>";
+						echo "<td><font color='000000' size='5'>-----<br></font></td>";
 
 
 					echo "</tr>";
@@ -48,17 +49,30 @@
 			?>
 			  
 			<?php 
-				 while($arreglo=mysqli_fetch_array($query)){
-				  	echo "<tr class='success'>";
-				    	echo "<td><font color='000000'>$arreglo[0]</</td>";
-				    	echo "<td><font color='6D6D71'>$arreglo[1]</</td>";
-				    	echo "<td><font color='000000'>$arreglo[2]</</td>";
-				    	echo "<td><font color='6D6D71'>$arreglo[3]</</td>";
-				    	echo "<td><font color='000000'>$arreglo[4]</</td>";
+				 while($arreglo=mysqli_fetch_array($query)){?>
 
+				  	<tr class='success'>
+				    	 <td><font color='000000'><?php echo$arreglo[0]?></</td>
+				    	<td><font color='6D6D71'><?php echo $arreglo[1]?></</td>
+				    	<td><font color='000000'><?php echo $arreglo[2]?></</td>
+				    	<td><font color='6D6D71'><?php echo $arreglo[3]?></</td>
+						<td><font color='000000'><?php echo $arreglo[4]?></</td>
 
+						<?php
+						if($arreglo['id']>1){?>
+
+							<td><a style="text-decoration:underline" href="eliminar.php?id=<?php echo $arreglo['id']?>">ELIMINAR</a></td>
+				
+							<?php
+						}
+						?>
 						
+							
 
+
+					
+					
+					<?php
 						
 					echo "</tr>";
 				}

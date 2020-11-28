@@ -1,11 +1,6 @@
 <?php include("include/EncabezadoAdmin.php") ?>
 
-				
-					
 <center>
-
-
-
 <div >
 	
 		
@@ -36,7 +31,8 @@
 						echo "<td><font color='000000' size='5'>ci<br></font></td>";
 						echo "<td><font color='6D6D71' size='5'>telefono<br></font></td>";
                         echo "<td><font color='000000' size='5'>destino<br></font></td>";
-                        echo "<td><font color='000000' size='5'>precio<br></font></td>";
+						echo "<td><font color='000000' size='5'>precio<br></font></td>";
+						echo "<td><font color='000000' size='5'>-----<br></font></td>";
 
 					echo "</tr>";
 
@@ -51,7 +47,14 @@
 				    	echo "<td><font color='000000'>$arreglo[2]</font></td>";
 				    	echo "<td><font color='6D6D71'>$arreglo[3]</font></td>";
                         echo "<td><font color='000000'>$arreglo[4]</font></td>";
-                        echo "<td><font color='000000'>$arreglo[5]</font></td>";
+						echo "<td><font color='000000'>$arreglo[5]</font></td>";
+						?>
+							<td>
+							<a style="text-decoration:underline" href="eliminaReserva.php?ci=<?php echo $arreglo['ci']?>">Eliminar</a>
+							</td>
+						<?php
+						
+
 					echo "</tr>";
 				}
 
