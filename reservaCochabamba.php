@@ -1,89 +1,91 @@
 <?php include("include/Encabezado.php") ?>
 	
-	
-	<header >
-		<div ></div>
-		<div >
-			<div >
-				<div >
-					
 
-					<div >
-						<div >
-							<h1>Reserva de pasajes</h1>	
-						</div>
-						<div >
-							<div >
-								<div >
-									
-									<div >
-										<div >
+
+							
+						
+									<center>
+										<h1>Reserva de pasajes</h1>	
+										<div class="borde">
+										
+										
 											<h3>Reserva tu viaje</h3>
 
 											<form action="datos.php" method="POST" >
-												<div >
-													<div >
+												
+													<div class="contenedor">
 														<label for="fullname">Nombre</label>
 														<input type="text" name="nombre" id="fullname" class="form-control" required="">
 													</div>
-												</div>
+												
                                                 
-                                                <div >
-													<div >
+                                               
+													<div class="contenedor">
 														<label for="fullname">Apellidos</label>
 														<input type="text" name="apellidos" id="fullname" class="form-control" required="">
 													</div>
-												</div>
+											
 
-                                                <div >
-													<div >
+                                              
+													<div class="contenedor">
 														<label for="fullname">Ci</label>
 														<input type="text" name="ci" id="fullname" class="form-control" required="">
 													</div>
-												</div>
+												
 
-                                                <div >
-													<div >
+                                                
+													<div class="contenedor">
 														<label for="fullname">telefono</label>
 														<input type="text" name="telefono" id="fullname" class="form-control" required="">
 													</div>
-												</div>
+												
 
-                                                <div >
-													<div >
+                                             
+													<div class="contenedor">
 														<label for="fullname">Destino</label>
 														<input type="text" name="destino" id="fullname" class="form-control" value="Cochabamba" required="" readonly>
 													</div>
+											
+												
+												<div class="contenedor">
+												 <label for="hora">hora de salida</label>
+												<select id="hora">
+												<option value="vacio" selected> </option>
+  												<option value="seis">6:00 pm</option>
+  												<option value="siente">7:00 pm</option>
+  												<option value="ocho">8:00 pm </option>
+  												<option value="nueve">9:00 pm</option>
+												
+												</select> 
 												</div>
 
-                                                <div >
-													<div >
+												<div class="contenedor">
+												<label for="fecha">fecha:</label>
+
+												<input type="date" id="fecha" name="trip-start"
+       												value=""
+       												min="2020-11-30" max="2021-11-30">
+												</div>
+
+
+													<div class="contenedor">
 														<label for="fullname">Precio  Bs.</label>
 														<input type="text" name="precio" id="fullname" class="form-control" value="100" required="" readonly>
 													</div>
-												</div>
+												
+
+
+												
 
 											
 
-												<div class="row form-group">
-													<div class="col-md-12">
+												
+													<div class="contenedor">
 														<input type="submit" class="btn btn-primary btn-block" value="guardar reserva">
 													</div>
-												</div>
+												
 											</form>	
-										</div>
-
-										
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-							
-					
-				</div>
-			</div>
-		</div>
-	</header>
+											</center>
+											</div>
 
     <?php include("include/footer.php") ?>

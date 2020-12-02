@@ -16,7 +16,7 @@
                 
             <center>
             
-                        <br>
+                <br>
                 <a href="precios.php">				
                 <button ><font size="4">PRECIOS</font><br><br><img src="images/precio.png" width="150"></button>
                 </a>

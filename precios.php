@@ -1,103 +1,71 @@
 <?php include("include/Encabezado.php") ?>
 	
 
-	<div >
-		<div >
-			<div >
-				<div >
-					<h2>Reservas de viaje</h2>
+	
+
+				<div>
+				<center>
+					<h2>Reservas de viajes</h2>
 					<p>Elige el mejor plan para ti</p>
                     <p>Viajes a:</p>
+					</center>
 				</div>
-			</div>
 
+			
 
-			<div>
-				<center><p>COCHABAMBA</p></center>
-                <center>
-				<div >
-					<div >
-						
-						<div >Bs. 100</div>
-						
-						<hr>
-						<ul >
+			<div class="precios cochabamba">
+				<center><p>COCHABAMBA</p>
+						Bs. 100
 
-						</ul>
-						<a href="reservaCochabamba.php" >Reservar</a>
-				</div>
+						<br>
+
+						<a class="reserva" href="reservaCochabamba.php" >Reservar</a>
+
+				
                 </center>
 			</div>
             
             
-			<div>
-				<center><p>SANTA CRUZ</p></center>
-				<div >
-                <center>
-					<div >
-						
-						<div >Bs. 200</div>
-						
-						<hr>
-						<ul >
+			<div class="precios santacruz">
+				<center><p>SANTA CRUZ</p>
 
-						</ul>
-						<a href="reservaSantaCruz.php" >Reservar</a>
-					</div>
+						
+						Bs. 200
+						<br>
+						<a class="reserva" href="reservaSantaCruz.php" >Reservar</a>
+					
                     </center>
-			</div>
+				</div>
 
-
-                <div>
-				<center><p>ORURO</p></center>
-				<div >
-                <center>
-					<div >
-						
-						<div >Bs. 80</div>
-						
-						<hr>
-						<ul >
-
-						</ul>
-						<a href="reservaOruro.php" >Reservar</a>
-					</div>
+                <div class="precios oruro">
+				<center><p>ORURO</p>
+                Bs. 80
+				<br>
+						<a class="reserva" href="reservaOruro.php" >Reservar</a>
+					
                 </center>
 				</div>
 
 
-                <div>
-				<center><p>TARIJA</p></center>
-				<div >
-                <center>
-					<div >
-						
-						<div >Bs. 150</div>
-						
-						<hr>
-						<ul >
 
-						</ul>
-						<a href="reservaTarija.php" >Reservar</a>
-					</div>
+                <div class="precios tarija">
+				<center><p>TARIJA</p>
+				Bs. 150
+
+				<br>
+						<a class="reserva" href="reservaTarija.php" >Reservar</a>
+					
                     </center>
 				</div>
 
 
-                <div>
-				<center><p>POTOSI</p></center>
-				<div >
-                <center>
-					<div >
+                <div class="precios potosi">
+				<center><p>POTOSI</p>
 						
-						<div >Bs. 100</div>
-						
-						<hr>
-						<ul >
-
-						</ul>
-						<a href="reservaPotosi.php" >Reservar</a>
-					</div>
+						Bs. 100
+						<br>
+						<a class="reserva" href="reservaPotosi.php" >Reservar</a>
+					
                     </center>
 				</div>
 
