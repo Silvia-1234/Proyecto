@@ -1,26 +1,12 @@
 <?php include("include/EncabezadoAdmin.php") ?>
 
 					
-<center>
 
-
-
-<div >
-	
-		
-	<div >
-
-		<div >
-		
-		<div >
-		<div ><h2> Contactos registrados</h2>	</div>
-		<hr />
-		<div >
 		
 
-
+	<div class="formulario">
 			<center>
-
+			<h2> Mensajes de Clientes</h2>
 		<?php
 
 				require("conexion.php");
@@ -30,10 +16,10 @@
 
 				echo "<table border='10'; class='btn btn-primary';>";
 					echo "<tr class='warning'>";
-					    echo "<td><font color='000000' size='5'>nombre<br></font></td>";
-						echo "<td><font color='6D6D71' size='5'>correo<br></font></td>";
-						echo "<td><font color='000000' size='5'>mensaje<br></font></td>";
-						echo "<td><font color='000000' size='5'>-----<br></font></td>";
+					    echo "<td><font  size='5'>Nombre<br></font></td>";
+						echo "<td><font  size='5'>Correo<br></font></td>";
+						echo "<td><font  size='5'>Mensaje<br></font></td>";
+						echo "<td><font  size='5'>-----<br></font></td>";
 
 					echo "</tr>";
 
@@ -43,9 +29,9 @@
 			<?php 
 				 while($arreglo=mysqli_fetch_array($query)){
 				  	echo "<tr class='success'>";
-				    	echo "<td><font color='000000'>$arreglo[1]</</td>";
-				    	echo "<td><font color='6D6D71'>$arreglo[2]</</td>";
-						echo "<td><font color='000000'>$arreglo[3]</</td>";
+				    	echo "<td>$arreglo[1]</td>";
+				    	echo "<td>$arreglo[2]</td>";
+						echo "<td>$arreglo[3]</td>";
 						?>
 						<td><a href="eliminarMensaje.php?id=<?php echo $arreglo['id'] ?>">eliminar</a></td>
 						<?php
@@ -59,11 +45,7 @@
 				
 			?>
 		</center>
-
-	
-		<br>
-		<br>
-		<br>	
+	</div>
 
 
 

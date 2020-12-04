@@ -39,7 +39,6 @@
 .fondo{
     background:url(images/fondo.jpg);
     background-size:cover;
-
 }
 table, tr, th, td{
 border: 1px solid #000000;

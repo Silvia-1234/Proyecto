@@ -1,9 +1,10 @@
 <?php include("include/EncabezadoAdmin.php") ?>
 
 
-    <div class="">
+    <div class="borde">
+    <center>
         <p >
-          <h4 >AÑADIR ADMINISTRADOR</h4>
+          <h4 >Añadir Administrador</h4>
        </p>
        <h4 >llenar formulario</h4>
              <form action="validaregistro.php" method="POST">
@@ -36,7 +37,7 @@
 
             <button class="btn-login" type="submit">Registrar     <i class=""></i></button>
         </form>
-
+    </center>
     </div>  
 
 

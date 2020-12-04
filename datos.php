@@ -20,10 +20,12 @@ $apellidos=$_POST['apellidos'];
 $ci=$_POST['ci'];
 $telefono=$_POST['telefono'];
 $destino=$_POST['destino'];
+$hora=$_POST['hora'];
+$fecha=$_POST['fecha'];
 $precio=$_POST['precio']; 
 
 //sentencia sql
- $sql="INSERT INTO reservas VALUES ('$nombre','$apellidos','$ci','$telefono','$destino','$precio')"; 
+ $sql="INSERT INTO reservas VALUES ('$nombre','$apellidos','$ci','$telefono','$destino','$hora','$fecha','$precio')"; 
 
 $ejecutar=mysqli_query($conexion, $sql);
 

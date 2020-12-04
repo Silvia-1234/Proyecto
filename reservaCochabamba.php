@@ -49,12 +49,12 @@
 												
 												<div class="contenedor">
 												 <label for="hora">hora de salida</label>
-												<select id="hora">
+												<select id="hora" name="hora">
 												<option value="vacio" selected> </option>
-  												<option value="seis">6:00 pm</option>
-  												<option value="siente">7:00 pm</option>
-  												<option value="ocho">8:00 pm </option>
-  												<option value="nueve">9:00 pm</option>
+  												<option value="6:00 pm">6:00 pm</option>
+  												<option value="7:00 pm">7:00 pm</option>
+  												<option value="8:00 pm">8:00 pm </option>
+  												<option value="9:00 pm">9:00 pm</option>
 												
 												</select> 
 												</div>
@@ -62,7 +62,7 @@
 												<div class="contenedor">
 												<label for="fecha">fecha:</label>
 
-												<input type="date" id="fecha" name="trip-start"
+												<input type="date" id="fecha" name="fecha"
        												value=""
        												min="2020-11-30" max="2021-11-30">
 												</div>
