@@ -45,6 +45,50 @@ border: 1px solid #000000;
 text-align: center;
     }
 
+.contenedor{
+    width: 85.74%;
+    padding: 0 15px;
+    margin: 0 auto;/*para centrar los contenedores*/
+}
+
+ .contenedor .img1{
+    background-image: url("images/1.jpeg");
+ }
+ .altura{
+     height: 500px;
+ }
+
+.fila{
+
+display: flex;/*para llenar un contenedor en linea*/
+flex-wrap: wrap;/*para que cada imagen ocupe lo que deba y no se apriente*/
+}
+.columna{
+    padding:0 15px;
+}
+.columna-50 img{
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.columna-50{
+    width: 50%;
+}
+.titulos{
+    text-decoration:underline;
+    text-transform:uppercase;
+}
+.descripcion{
+    background-color: yellowgreen;
+    padding:0 100PX;
+    height: 100%;/*llena todo el contenedor de color*/
+    border-radius: 15px;
+}
 .precios{
     float:right; 
     padding:10px; 
@@ -98,6 +142,18 @@ text-align: center;
 }
 .contenedor{
     padding:4px;
+    
+}
+.logo{
+    width:100px;
+    position:absolute;
+    top:90px;
+    left:150px;
+    
+}
+.logo img{
+    width:200px;
+    height:200px;
     
 }
 
